@@ -1,0 +1,9 @@
+﻿# Entorno virtual aislado
+.venv/
+
+# Credenciales locales seguras
+.env
+
+# Archivos temporales de Python y Jupyter
+__pycache__/
+.ipynb_checkpoints/
