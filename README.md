@@ -751,156 +751,28 @@ Se aplica 'describe' para conocer datos de las variables numéricas antes de lim
     ---- ----
     FILTRO A: Registros SIN FECHA y SIN EURIBOR3M  
     Total de registros encontrados en esta condición: 56
-    <div>
-    <style scoped>
-        .dataframe tbody tr th:only-of-type {
-            vertical-align: middle;
-        }
 
-        .dataframe tbody tr th {
-            vertical-align: top;
-        }
 
-        .dataframe thead th {
-            text-align: right;
-        }
-    </style>
-    <table border="1" class="dataframe">
-    <thead>
-        <tr style="text-align: right;">
-        <th></th>
-        <th>orden_original</th>
-        <th>date</th>
-        <th>euribor3m</th>
-        <th>emp.var.rate</th>
-        <th>cons.conf.idx</th>
-        <th>nr.employed</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-        <th>42460</th>
-        <td>1433</td>
-        <td>NaT</td>
-        <td>NaN</td>
-        <td>1.1</td>
-        <td>-36.4</td>
-        <td>5191.0</td>
-        </tr>
-        <tr>
-        <th>42463</th>
-        <td>2564</td>
-        <td>NaT</td>
-        <td>NaN</td>
-        <td>1.1</td>
-        <td>-36.4</td>
-        <td>5191.0</td>
-        </tr>
-        <tr>
-        <th>42469</th>
-        <td>3397</td>
-        <td>NaT</td>
-        <td>NaN</td>
-        <td>1.1</td>
-        <td>-36.4</td>
-        <td>5191.0</td>
-        </tr>
-        <tr>
-        <th>42477</th>
-        <td>5163</td>
-        <td>NaT</td>
-        <td>NaN</td>
-        <td>1.1</td>
-        <td>-36.4</td>
-        <td>5191.0</td>
-        </tr>
-        <tr>
-        <th>42485</th>
-        <td>6283</td>
-        <td>NaT</td>
-        <td>NaN</td>
-        <td>1.1</td>
-        <td>-36.4</td>
-        <td>5191.0</td>
-        </tr>
-    </tbody>
-    </table>
-    </div>
+    | ID | orden_original | date | euribor3m | emp.var.rate | cons.conf.idx | nr.employed |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **42460** | 1433 | *NaT* | *NaN* | 1.1 | -36.4 | 5191.0 |
+    | **42463** | 2564 | *NaT* | *NaN* | 1.1 | -36.4 | 5191.0 |
+    | **42469** | 3397 | *NaT* | *NaN* | 1.1 | -36.4 | 5191.0 |
+    | **42477** | 5163 | *NaT* | *NaN* | 1.1 | -36.4 | 5191.0 |
+    | **42485** | 6283 | *NaT* | *NaN* | 1.1 | -36.4 | 5191.0 |
 
     ----------- 
 
     FILTRO B: Registros SIN FECHA y SIN CONS.PRICE.IDX  
-    Total de registros encontrados en esta condición: 4  
-    <div>
-    <style scoped>
-        .dataframe tbody tr th:only-of-type {
-            vertical-align: middle;
-        }
+    Total de registros encontrados en esta condición: 4
 
-        .dataframe tbody tr th {
-            vertical-align: top;
-        }
 
-        .dataframe thead th {
-            text-align: right;
-        }
-    </style>
-    <table border="1" class="dataframe">
-    <thead>
-        <tr style="text-align: right;">
-        <th></th>
-        <th>orden_original</th>
-        <th>date</th>
-        <th>cons.price.idx</th>
-        <th>emp.var.rate</th>
-        <th>cons.conf.idx</th>
-        <th>nr.employed</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-        <th>42517</th>
-        <td>13212</td>
-        <td>NaT</td>
-        <td>NaN</td>
-        <td>1.4</td>
-        <td>-42.7</td>
-        <td>5228.1</td>
-        </tr>
-        <tr>
-        <th>42560</th>
-        <td>19256</td>
-        <td>NaT</td>
-        <td>NaN</td>
-        <td>1.4</td>
-        <td>-36.1</td>
-        <td>5228.1</td>
-        </tr>
-        <tr>
-        <th>42593</th>
-        <td>24602</td>
-        <td>NaT</td>
-        <td>NaN</td>
-        <td>-0.1</td>
-        <td>-42.0</td>
-        <td>5195.8</td>
-        </tr>
-        <tr>
-        <th>42682</th>
-        <td>40358</td>
-        <td>NaT</td>
-        <td>NaN</td>
-        <td>-1.7</td>
-        <td>-38.3</td>
-        <td>4991.6</td>
-        </tr>
-    </tbody>
-    </table>
-    </div>
-
-   
-    
-    proyecto-marketing-bancario\reports\figuras\Distribucion_variable_objetivo_y.png
+    | ID | orden_original | date | cons.price.idx | emp.var.rate | cons.conf.idx | nr.employed |
+    | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
+    | **42517** | 13212 | *NaT* | *NaN* | 1.4 | -42.7 | 5228.1 |
+    | **42560** | 19256 | *NaT* | *NaN* | 1.4 | -36.1 | 5228.1 |
+    | **42593** | 24602 | *NaT* | *NaN* | -0.1 | -42.0 | 5195.8 |
+    | **42682** | 40358 | *NaT* | *NaN* | -1.7 | -38.3 | 4991.6 |
 
     **Observaciones e imputación 'euriborn' & 'cons.price.idx'**
 
@@ -1025,71 +897,14 @@ La Mediana es eficiente para asignar un punto  realista sin generar un outlier a
 
     **Ejemplo de datos normalizados**
 
-    <div>
-    <style scoped>
-        .dataframe tbody tr th:only-of-type {
-            vertical-align: middle;
-        }
+| ID | duration | duration_original | z_score_duration | is_duration_capped |
+| :--- | :---: | :---: | :---: | :---: |
+| **11061** | 881.08094 | 914.180635 | 3.156718 | **True** |
+| **25996** | 881.08094 | 884.000000 | 3.013821 | **True** |
+| **39635** | 881.08094 | 914.180635 | 3.156718 | **True** |
+| **6174** | 881.08094 | 914.180635 | 3.156718 | **True** |
+| **22895** | 881.08094 | 914.180635 | 3.156718 | **True** |
 
-        .dataframe tbody tr th {
-            vertical-align: top;
-        }
-
-        .dataframe thead th {
-            text-align: right;
-        }
-    </style>
-    <table border="1" class="dataframe">
-    <thead>
-        <tr style="text-align: right;">
-        <th></th>
-        <th>duration</th>
-        <th>duration_original</th>
-        <th>z_score_duration</th>
-        <th>is_duration_capped</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-        <th>11061</th>
-        <td>881.08094</td>
-        <td>914.180635</td>
-        <td>3.156718</td>
-        <td>True</td>
-        </tr>
-        <tr>
-        <th>25996</th>
-        <td>881.08094</td>
-        <td>884.000000</td>
-        <td>3.013821</td>
-        <td>True</td>
-        </tr>
-        <tr>
-        <th>39635</th>
-        <td>881.08094</td>
-        <td>914.180635</td>
-        <td>3.156718</td>
-        <td>True</td>
-        </tr>
-        <tr>
-        <th>6174</th>
-        <td>881.08094</td>
-        <td>914.180635</td>
-        <td>3.156718</td>
-        <td>True</td>
-        </tr>
-        <tr>
-        <th>22895</th>
-        <td>881.08094</td>
-        <td>914.180635</td>
-        <td>3.156718</td>
-        <td>True</td>
-        </tr>
-    </tbody>
-    </table>
-    </div>
-
-    <br>
 
 
 ## 5. Diccionario de Columnas de Trazabilidad, Ingeniería y Auditoría
@@ -1187,44 +1002,10 @@ El análisis univariante revela una distribución altamente asimétrica en la va
 
 La distribución de la variable objetivo es :
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Porcentaje (%)</th>
-    </tr>
-    <tr>
-      <th>y</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>no</th>
-      <td>88.74</td>
-    </tr>
-    <tr>
-      <th>yes</th>
-      <td>11.26</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+| Respuesta (y) | Porcentaje (%) |
+| :--- | :---: |
+| **no** | 88.74% |
+| **yes** | 11.26% |
 
 
 &emsp;&emsp;
@@ -1249,7 +1030,7 @@ Identificación de patrones: Distribuciones demográficas
 <img src="proyecto-marketing-bancario/reports/figuras/Distribuciones_demograficas_edad_ingresos.png" width="700">
 </div>
 
-### Patrones Categóricos: Identificación del volumen de clientes por job, marital y education.###
+### Patrones Categóricos: Identificación del volumen de clientes por job, marital y education. 
 
 Al analizar las variables categóricas principales, el patrón estructural de la base de clientes queda claramente definido:
 
@@ -1318,56 +1099,13 @@ Las medianas de edad de ambos grupos se sitúan de forma casi idéntica (38 año
 
  En contraste, los márgenes demográficos (juventud y jubilación) disponen de mayor apertura para escuchar la propuesta. El esfuerzo de saneamiento aplicado sobre esta variable queda plenamente justificado al descubrir que la edad es uno de los predictores cualitativos más potentes de la campaña.
   
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th>y</th>
-      <th>yes</th>
-    </tr>
-    <tr>
-      <th>age_group</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>&lt;25 jóvenes</th>
-      <td>21.4</td>
-    </tr>
-    <tr>
-      <th>25-30 junior</th>
-      <td>13.2</td>
-    </tr>
-    <tr>
-      <th>31-45 maduros</th>
-      <td>9.6</td>
-    </tr>
-    <tr>
-      <th>46-60 senior</th>
-      <td>9.9</td>
-    </tr>
-    <tr>
-      <th>&gt;60 jubilación</th>
-      <td>44.8</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+| Grupo de Edad (age_group) | Conversión (y = yes) |
+| :--- | :---: |
+| **<25 jóvenes** | 21.4% |
+| **25-30 junior** | 13.2% |
+| **31-45 maduros** | 9.6% |
+| **46-60 senior** | 9.9% |
+| **>60 jubilación** | 44.8% |
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
@@ -1452,42 +1190,10 @@ Revisar la estrategia para llegar a los 'sectores activos', que cuentan con meno
 ## Verificación de suposiciones: Impacto del Euribor en la suscripción ##
 Validación de  si los clientes apostaron  por los depósitos cuando el Euribor estaba por las nubes (cerca del 5%) para asegurar rentabilidad, o si reaccionaron mejor en entornos de tipos bajos.s
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Entorno económico</th>
-      <th>Tasa de éxito / yes (%)</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>Tipos bajos (Euribor &lt; 2%)</td>
-      <td>21.7</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>Tipos altos (Euribor &gt;= 4%)</td>
-      <td>6.1</td>
-    </tr>
-  </tbody>
-</table>
-</div>
+| Entorno económico | Tasa de éxito / Conversión (yes) |
+| :--- | :---: |
+| **Tipos bajos (Euribor < 2%)** | 21.7% |
+| **Tipos altos (Euribor >= 4%)** | 6.1% |
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
