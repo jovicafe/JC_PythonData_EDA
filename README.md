@@ -354,7 +354,7 @@ con todos los headers de columnas de los datos a revisar.
 
 <div style="padding-left: 40px;">
 
-<img src="./reports/figuras/tabla_resumentypes.png" width="600">
+<img src="proyecto-marketing-bancario/reports/figuras/tabla_resumentypes.png" width="600">
 
 </div>
 
@@ -543,7 +543,7 @@ Para realizar esta imputación, se implementó un selector jerárquico que prior
 
 
 <div style="padding-left: 40px;">
-    <img src="./reports/figuras/mapa_residuos_job_education.png" width="600">
+    <img src="proyecto-marketing-bancario/reports/figuras/mapa_residuos_job_education.png" width="600">
 </div>  
 
 <br>
@@ -576,7 +576,7 @@ Dado que el porcentaje de registros atípicos es bajo y posee valor informativo 
 
 <div style="padding-left: 40px;">
 
-<img src="./reports/figuras/distribucion_edad_boxplot.png" width="600">
+<img src="proyecto-marketing-bancario/reports/figuras/distribucion_edad_boxplot.png" width="600">
 
 </div>
 
@@ -628,7 +628,7 @@ Se aplica 'describe' para conocer datos de las variables numéricas antes de lim
 
 ***Métricas de variables Macroeconómicas y de campaña***
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Describe_prelimpieza_Variables_Macro_&_Campaña.png" width="600">
+<img src="proyecto-marketing-bancario/reports/figuras/Describe_prelimpieza_Variables_Macro_&_Campaña.png" width="600">
 
 </div>
   
@@ -656,13 +656,13 @@ Se aplica 'describe' para conocer datos de las variables numéricas antes de lim
     --- 
     &emsp;&emsp;***Distribución general de  'previous' & 'pdays'***
     <div style="padding-left:60px;">
-    <img src="./reports/figuras/Cruce_Previous_Pdays.png" width="600">
+    <img src="proyecto-marketing-bancario/reports/figuras/Cruce_Previous_Pdays.png" width="600">
       </div>
       
     ---
     &emsp;&emsp;***Distribución general de  'campaign' & 'pdays'.***
     <div style="padding-left:60px;">
-    <img src="./reports/figuras/Cruce_Campaign_Pdays.png" width="600">
+    <img src="proyecto-marketing-bancario/reports/figuras/Cruce_Campaign_Pdays.png" width="600">
 
     </div>
 
@@ -671,7 +671,7 @@ Se aplica 'describe' para conocer datos de las variables numéricas antes de lim
     ---
     &emsp;&emsp;
     <div style="padding-left:60px;">
-    <img src="./reports/figuras/Justificacion_grafica_pdays.png" width="600">
+    <img src="proyecto-marketing-bancario/reports/figuras/Justificacion_grafica_pdays.png" width="600">
     </div>
     
     ---
@@ -720,7 +720,7 @@ Se aplica 'describe' para conocer datos de las variables numéricas antes de lim
          ---
     &emsp;&emsp;
     <div style="padding-left:60px;">
-    <img src="./reports/figuras/Dias_semana_nulos_euribor3m.png" width="300">
+    <img src="proyecto-marketing-bancario/reports/figuras/Dias_semana_nulos_euribor3m.png" width="300">
     </div>
     
         
@@ -958,7 +958,7 @@ Columnas creadas - Nulos
 Validamos una muestra de antes y despues del reordenamiento de las filas para asegurar que los datos no han sido modificados por el reorder o el fill. 
 
 <div style="padding-left:60px;">
-<img src="./reports/figuras/validacion_orden_by_date_DF_wip_cleanii.PNG" width="300">
+<img src="proyecto-marketing-bancario/reports/figuras/validacion_orden_by_date_DF_wip_cleanii.PNG" width="300">
 </div>
 
   
@@ -1012,7 +1012,7 @@ La Mediana es eficiente para asignar un punto  realista sin generar un outlier a
 
 
     <div style="padding-left:60px;">
-    <img src="./reports/figuras/Distribucion_Zscore_Duration.png" width="300">
+    <img src="proyecto-marketing-bancario/reports/figuras/Distribucion_Zscore_Duration.png" width="300">
     </div>
 
     Se opta por : **WINSORIZACIÓN (CAPPING) por Z-SCORE**
@@ -1229,7 +1229,7 @@ La distribución de la variable objetivo es :
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Distribucion_variable_objetivo_y.png" width="600">
+<img src="proyecto-marketing-bancario/reports/figuras/Distribucion_variable_objetivo_y.png" width="600">
 </div>
 
 
@@ -1246,7 +1246,7 @@ Identificación de patrones: Distribuciones demográficas
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Distribuciones_demograficas_edad_ingresos.png" width="700">
+<img src="proyecto-marketing-bancario/reports/figuras/Distribuciones_demograficas_edad_ingresos.png" width="700">
 </div>
 
 ### Patrones Categóricos: Identificación del volumen de clientes por job, marital y education.###
@@ -1266,7 +1266,7 @@ Porcentaje (%)
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Distribucion_profesion_estado_civil.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Distribucion_profesion_estado_civil.png" width="800">
 </div>
 
 
@@ -1282,7 +1282,7 @@ Anomalías en la interacción (duration): El análisis de cajas (boxplot) de la 
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Comparacion_duracion_original_tratada.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Comparacion_duracion_original_tratada.png" width="800">
 </div>
 
 **Contexto Macroeconómico** 
@@ -1291,7 +1291,7 @@ Contexto macroeconómico: El gráfico de dispersión revela un claro patrón de 
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Contexto_macroeconomico_emp_var_rate_vs_euribor3m.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Contexto_macroeconomico_emp_var_rate_vs_euribor3m.png" width="800">
 </div>
 
 
@@ -1371,7 +1371,7 @@ Las medianas de edad de ambos grupos se sitúan de forma casi idéntica (38 año
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Densidad_edad_por_suscripcion.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Densidad_edad_por_suscripcion.png" width="800">
 </div>
 
 
@@ -1381,7 +1381,7 @@ Los datos desmienten parcialmente la suposición inicial. Los hogares sin hijos 
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Impacto_carga_familiar.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Impacto_carga_familiar.png" width="800">
 </div>
 
 
@@ -1392,7 +1392,7 @@ El negocio podría poner énfasis en cubrir estos dos nichos.  debe reorientar e
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Tasa_suscripcion_por_profesion.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Tasa_suscripcion_por_profesion.png" width="800">
 </div>
 
 ### Verificación de hipótesis complementaria: Duración media por profesión 
@@ -1411,7 +1411,7 @@ Asi mismo revisamos si :
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Duracion_llamada_por_profesion.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Duracion_llamada_por_profesion.png" width="800">
 </div>
 
 
@@ -1426,7 +1426,7 @@ La ley de los rendimientos decrecientes: Los datos revelan que la mayor efectivi
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Impacto_numero_contactos_campaign.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Impacto_numero_contactos_campaign.png" width="800">
 </div>
 
 ### Verificación de hipótesis complementaria: operativo-demográfica: Contactos por profesión ###
@@ -1446,7 +1446,7 @@ Revisar la estrategia para llegar a los 'sectores activos', que cuentan con meno
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Contactos_por_profesion.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Contactos_por_profesion.png" width="800">
 </div>
 
 ## Verificación de suposiciones: Impacto del Euribor en la suscripción ##
@@ -1491,7 +1491,7 @@ Validación de  si los clientes apostaron  por los depósitos cuando el Euribor 
 
 &emsp;&emsp;
 <div style="padding-left:60px;">
-<img src="./reports/figuras/Impacto_euribor_suscripcion.png" width="800">
+<img src="proyecto-marketing-bancario/reports/figuras/Impacto_euribor_suscripcion.png" width="800">
 </div>
 
 Contrario a la creencia lógica de negocio de que "un Euribor alto incentiva la contratación por ofrecer rentabilidades atractivas", los datos demuestran un patrón radicalmente opuesto. En entornos de tipos bajos (Euribor < 2%), la tasa de éxito de la campaña se dispara exponencialmente. Por el contrario, en entornos de tipos altos (Euribor >= 4%), el porcentaje de éxito se desploma de forma severa.
